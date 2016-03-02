@@ -6,70 +6,44 @@
 </tr>
 </table>
 
-# BRIAN  
+# AirPAD  
 
-###(anagram of Brain )
-Robot based on the awesome work of Theo Jansen called Rhinoceros
-
-<img src="images/Brian_V1.png" width="800" align = "center">
+Android app to move robots over WiFi or Bluetooth
 
 
-<img src="images/basical_measure.png" width="400" align = "center">
+<img src="images/AIRPADlogo.png" width="600" align = "center">
 
-## BOM
-- 4 SERVO SM-S4303R  continous rotation [example](https://www.pololu.com/product/1248)
-- 1 [Zum board](http://3d.bq.com/zum.html) or compatible Arduino/Genuino board with Bluetooth feature
-- 1 Battery pack 6V 2A
-- 3D printed parts
+
+
+
+
 
 ## Files
 
-###CAD
+###APP
 
-**basical measure**  is a Freecad drawing of the basic kinematic
+**AirPad Folder**  source files
 
-**3D basic leg without servo**  is a Freecad drawing of the 3D kinematic
+**AirPAD.aia**  source file for MIT App Inventor
 
-**FEET_Mold**  is a Freecad mold for silicone feet
+**AirPad v0.1.apk**  IS THE APP!
 
-**Doublelegs_two_servos**  is a Freecad drawing of one side legs with two servomotor
 
-###3D Printed Parts
-
-**BRIAN_foot**  STL of the foot, print it in flexible filament
-
-**BRIAN_LEG**  STL of complete leg, put in in you favourite slicing SW and split the object into parts
-
-**HEADd**  STL of the head that is the electronic enclosure
-
-**SERVO_HOLDER**  STL of the servo holder
-
-**2leg_plate.gcode**  Plate with two full legs made for Witbox 3D printer A4 sized build plate
-
-**head_and4_servo.gcode**  Plate with head and 4 servo holder made for Witbox 3D printer A4 sized build plate servomotor
 
 ###FIRMWARE
 
-**Servo_Calibration**  Sketch to calibrate continous rotation servos, it put the servo at 90 degree and with a screwdriver you cad trim the servo till it stops
-
-**Movement_test**  Sketch for testing basic movement forward
-
-## Assembly
-
-<img src="images/1.jpg" width="200" align = "center">
-<img src="images/2.jpg" width="200" align = "center">
-<img src="images/3.jpg" width="200" align = "center">
-<img src="images/4.jpg" width="200" align = "center">
+**AirPad_BT_SERVO**  Simple sketch to move servomotors based robots over Bluetooth (the sketch is made for [Brian](https://github.com/bqlabs/Brian) but is easy to customize for your robots
 
 
-<img src="images/5.jpg" width="200" align = "center">
-<img src="images/6.jpg" width="200" align = "center">
-<img src="images/7.jpg" width="200" align = "center">
-<img src="images/8.jpg" width="200" align = "center">
+**AirPad_ESP8266_DCmotor**  Simple sketch to move DCmotors based robots over WiFi, using an ESP8266 or NodeMCU (the sketch is made for [Node_WS](https://github.com/bqlabs/NODE_WS) or [Omniboard](https://github.com/bqlabs/OmniBoard) but is easy to customize for your robots
 
 
-<img src="images/9.jpg" width="200" align = "center">
-<img src="images/10.jpg" width="200" align = "center">
+
+## COMMANDS
+
+<img src="images/command.png" width="600" align = "center">
+<img src="images/command_app.png" width="600" align = "center">
+
 
 
 
@@ -86,10 +60,10 @@ Robot based on the awesome work of Theo Jansen called Rhinoceros
 
 Designed by Gianluca Pugliese [Owensource](https://www.owensource.com) for [BQ](https://www.bq.com)
 
-Inspired on the awesome Rhinoceros strandbeest
+based on PrintBot app
 
-- [Theo Jansen on Wikipedia](https://es.wikipedia.org/wiki/Theo_Jansen)
-- [Strandbeest.com](http://www.strandbeest.com/)
+- [Luis Diaz tutorial](http://diwo.bq.com/controlando-un-printbot-con-botones-en-app-inventor/)
+
 
 
 ## License
