@@ -18,6 +18,8 @@ Android app to move robots over WiFi or Bluetooth
 
 
 
+
+
 ## Files
 
 ###APP
@@ -27,6 +29,13 @@ Android app to move robots over WiFi or Bluetooth
 **AirPAD.aia**  source file for MIT App Inventor
 
 **AirPad v0.1.apk**  IS THE APP!
+
+
+###HOW TO INSTALL
+
+- Copy **AirPad v0.1.apk** in the memory of your smartphone
+- in Android Settigs allow the installation for app without digital signs
+- RUN AirPaD :)     
 
 
 
