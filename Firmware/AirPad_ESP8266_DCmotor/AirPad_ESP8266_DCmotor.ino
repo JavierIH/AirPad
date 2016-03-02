@@ -4,7 +4,7 @@
 /* ############################################################ 
  *  By: Gianluca Pugliese 
  *  BQlabs
- *  Android App for Controller:  https://play.google.com/store/apps/details?id=com.br3.udpctl&hl=th
+ *  Android App for Controller:  http://ai2.appinventor.mit.edu/#5583264621789184
  *  Hardware Micro Controller: NodeMCU V2 (ESP8266-12)
   
  *  Based on the awesome job of Vittaysak Rujivorakul
